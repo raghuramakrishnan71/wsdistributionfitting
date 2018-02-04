@@ -20,7 +20,7 @@ Write the given line to the specified file.
 Fits the given data to specified parametric distribution (using fitdist) and does kstest for goodness of fit (using kstest).
 
 7. fitNTestRecursiveBodyRegion.m:
-Discovers the longest subset in the given dataset X which can be successfully modeled using the specified distribution. 
+Discovers the longest subset in the given dataset X which can be successfully modeled using the specified distribution. Internally uses KSgofParametric (for parametric distributions), KSgofKernel (for kernel distribution), KSgofPiecewiseLinear (for piecewise) and KSgofTriangular (for triangular). Required KSgof method can be uncommented for use. KSgofParametric is uncommented by default. 
 
 8. assign2.m:
 Used internally by FitNTestADistribution.m
