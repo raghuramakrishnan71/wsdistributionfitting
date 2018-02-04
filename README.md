@@ -22,4 +22,7 @@ Fits the given data to specified parametric distribution (using fitdist) and doe
 7. fitNTestRecursiveBodyRegion.m:
 Discovers the longest subset in the given dataset X which can be successfully modeled using the specified distribution. 
 
+8. assign2.m:
+Used internally by FitNTestADistribution.m
+
 
