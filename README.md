@@ -16,4 +16,10 @@ Calculates the skewness and kurtosis value of given data. Internally uses ReadDa
 5. WriteDataToFile.m:
 Write the given line to the specified file.
 
+6. KSgofParametric.m:
+Fits the given data to specified parametric distribution and does kstest for goodness of fit.
+
+7. fitNTestRecursiveBodyRegion.m:
+Discovers the longest subset in the given dataset X which can be successfully modeled using the specified distribution. 
+
 
