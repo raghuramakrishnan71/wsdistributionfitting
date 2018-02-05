@@ -28,4 +28,10 @@ Used internally by FitNTestADistribution.m
 9. KSgofNonParametricKernel.m:
 Fits the given data to specified kernel distribution (using fitdist) and does kstest for goodness of fit (using kstest). The smoothing function can be set as required. Four smoothing functions are supported - epanechnikov, normal, box and triangle. Called from fitNTestRecursiveBodyRegion.
 
+10. KSgofNonParametricPiecewiseLinear.m
+Fits the given data to specified piecewise distribution (using makedist). The group size is configurable. The default group size is 10. Called from fitNTestRecursiveBodyRegion.
+
+11. KSgofNonParametricTriangular.m
+Fits the given data to specified triangular distribution (using makedist). The peak is configurable. The default peak size is mean. Called from fitNTestRecursiveBodyRegion.
+
 
